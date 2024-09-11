@@ -16,8 +16,7 @@ Table of Contents
 4.	Screenshots…………………………………………………………………………………………………………………..2
 5.	Conclusion…………………………………………………………………………………………………………………….2
 
-Introduction
-The topic of the Endterm Project is online booking of airplane tickets within Kazakhstan and between different cities around the world. My project will incorporate Object-Oriented Programming principles that will demonstrate my ability to work with the Java language.  In the following parts, I will carefully discuss the project's structure, that is, the OOP capabilities that I used in the project, step by step. After that, I will provide the application's source code in text format, with comments to help to understand the code, and the report will include the results of each component of the application, which will be described in detail.
+Introduction: The topic of the Endterm Project is online booking of airplane tickets within Kazakhstan and between different cities around the world. My project will incorporate Object-Oriented Programming principles that will demonstrate my ability to work with the Java language.  In the following parts, I will carefully discuss the project's structure, that is, the OOP capabilities that I used in the project, step by step. After that, I will provide the application's source code in text format, with comments to help to understand the code, and the report will include the results of each component of the application, which will be described in detail.
 
 1.	Structure of project
 
@@ -27,6 +26,7 @@ The topic of the Endterm Project is online booking of airplane tickets within Ka
  
 3.	Diagram, provided by Intellij Idea
  
+![diagrams](https://github.com/user-attachments/assets/2dffdff4-4f05-498a-bbba-3e02dc49de61)
 
 
 Here is the class and interface provided for database connectivity
@@ -943,10 +943,11 @@ public class Application
 
 So, the last one is what we got from console, so here it is: 
 Null in ticket list means that ticket is available for buy and date_to means when we arrive with that ticket, if it is null, it is one-way ticket
+![results](https://github.com/user-attachments/assets/278ae9fb-0cba-4ae4-8dc1-980e7f96f311)
 
-Conclusion 
-In conclusion, it must be mentioned that this project provided me with valuable experience when developing a Java project. I liked working with generics, regular expression, java database connectivity.
-I believe that the program will considerably accelerate the booking of airline tickets.
+![results2](https://github.com/user-attachments/assets/06f00656-e006-4ab3-8829-155bc8ad7c3e)
+
+Conclusion: In conclusion, it must be mentioned that this project provided me with valuable experience when developing a Java project. I liked working with generics, regular expression, java database connectivity. I believe that the program will considerably accelerate the booking of airline tickets.
 
 
 
