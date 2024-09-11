@@ -20,8 +20,10 @@ Introduction
 The topic of the Endterm Project is online booking of airplane tickets within Kazakhstan and between different cities around the world. My project will incorporate Object-Oriented Programming principles that will demonstrate my ability to work with the Java language.  In the following parts, I will carefully discuss the project's structure, that is, the OOP capabilities that I used in the project, step by step. After that, I will provide the application's source code in text format, with comments to help to understand the code, and the report will include the results of each component of the application, which will be described in detail.
 
 1.	Structure of project
+![structure](https://github.com/user-attachments/assets/99c92219-0830-474d-b275-ba1e3f8a5194)
+
  
-2.	Diagram, provided by Intellij Idea
+3.	Diagram, provided by Intellij Idea
  
 
 
