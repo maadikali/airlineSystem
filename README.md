@@ -10,11 +10,11 @@ Students Name: Madiyar Kaliyev
 Table of Contents
 
 
-1.	Introduction………………………………………………………………………………………………………………….2	
-2.	Structure of the project ……………………………………………………………………………………………….2
-3.	The source code……………………………………………………………………………………………………………2
-4.	Screenshots…………………………………………………………………………………………………………………..2
-5.	Conclusion…………………………………………………………………………………………………………………….2
+1.	Introduction………………………………………………………………………………………………………………….3
+2.	Structure of the project ……………………………………………………………………………………………….4
+3.	The source code……………………………………………………………………………………………………………5
+4.	Screenshots…………………………………………………………………………………………………………………..21
+5.	Conclusion…………………………………………………………………………………………………………………….23
 
 Introduction: The topic of the Endterm Project is online booking of airplane tickets within Kazakhstan and between different cities around the world. My project will incorporate Object-Oriented Programming principles that will demonstrate my ability to work with the Java language.  In the following parts, I will carefully discuss the project's structure, that is, the OOP capabilities that I used in the project, step by step. After that, I will provide the application's source code in text format, with comments to help to understand the code, and the report will include the results of each component of the application, which will be described in detail.
 
@@ -30,6 +30,7 @@ Introduction: The topic of the Endterm Project is online booking of airplane tic
 
 
 Here is the class and interface provided for database connectivity
+
 package database;
 
 import java.sql.Connection;
@@ -59,10 +60,9 @@ public class PostgreDatabase implements IDB {
     }
 }
 
-I have provided 5 models in project (Flight, Airplane, Ticket, Passenger, Person). 
-Each of them contains their fields.
-package model;
+I have provided 5 models in project (Flight, Airplane, Ticket, Passenger, Person). Each of them contains their fields.
 
+package model;
 public class Airplane
 {
     private int airplaneID;
@@ -843,8 +843,8 @@ public class BuyTicket <T> {
 }
 
 And last one is Application class, where we start working with our application
-import database.PostgreDatabase;
 
+import database.PostgreDatabase;
 import java.util.*;
 import java.sql.*;
 
